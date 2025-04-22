@@ -1,0 +1,41 @@
+{
+  "name": "perigiweb/tokoafra",
+  "description": "Toko online https://tokoafra.my.id dengan fitur multi suplier (barang dikirim langsung dari suplier), keranjang belanja, hitung ongkir dll.",
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.perigi.my.id",
+      "only": [
+        "perigiweb/*",
+        "perigi/*"
+      ]
+    }
+  ],
+  "authors": [
+    {
+      "name": "Ali Mthr",
+      "homepage": "https://perigi.my.id/"
+    }
+  ],
+  "require": {
+    "php": ">=8.2.0",
+    "perigiweb/installer": "~1.0.0",
+    "perigiweb/store-multi-gudang": "^1.3",
+    "perigiweb/theme-backend-store": "^1.1",
+    "perigiweb/theme-store-ta": "^1.1"
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "php -r \"copy('example.env', '.env');\""
+    ]
+  },
+  "config": {
+    "process-timeout": 0,
+    "vendor-dir": "app/vendor",
+    "allow-plugins": {
+      "perigiweb/installer": true
+    }
+  },
+  "minimum-stability": "stable"
+}

@@ -1,0 +1,9 @@
+app
+public/assets/uploads/*
+public/assets/themes
+public/assets/**/composer.json
+!public/assets/uploads/.gitkeep
+tmp/*
+!tmp/.gitkeep
+composer.lock
+.env
