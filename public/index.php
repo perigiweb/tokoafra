@@ -5,8 +5,8 @@ define('SECTION', 'frontend');
 define('BASEPATH', __DIR__);
 define('ROOTPATH', dirname(__DIR__));
 define('ASSETPATH', BASEPATH . '/assets');
-define('APPPATH', dirname(__DIR__) .  '/app/multi-gudang');
-define('THEMEPATH', dirname(__DIR__) .  '/app/themes');
-define('TMPPATH', dirname(__DIR__) . '/tmp');
+define('APPPATH', ROOTPATH .  '/app/store-multi-gudang');
+define('THEMEPATH', ROOTPATH .  '/app/themes');
+define('TMPPATH', ROOTPATH . '/tmp');
 
 require ROOTPATH . '/bootstrap.php';

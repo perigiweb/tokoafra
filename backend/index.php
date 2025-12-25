@@ -1,15 +1,11 @@
 <?php declare(strict_types=1);
 
-$rootPath = dirname(__DIR__);
-
-define('SECTION', 'backend');
+define('SECTION', 'admin');
 define('BASEPATH', __DIR__);
-define('ROOTPATH', $rootPath);
-define('ASSETPATH', dirname(__DIR__) . '/public/assets');
-define('APPPATH', $rootPath .  '/app/multi-gudang');
-define('THEMEPATH', $rootPath .  '/app/themes');
-define('TMPPATH', $rootPath . '/tmp');
-
-unset($rootPath);
+define('ROOTPATH', dirname(__DIR__));
+define('ASSETPATH', ROOTPATH . '/public/assets');
+define('APPPATH', ROOTPATH .  '/app/store-multi-gudang');
+define('THEMEPATH', ROOTPATH .  '/app/themes');
+define('TMPPATH', ROOTPATH . '/tmp');
 
 require ROOTPATH . '/bootstrap.php';
