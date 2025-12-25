@@ -21,7 +21,7 @@
     "php": ">=8.2.0",
     "perigiweb/installer": "~1.0.0",
     "perigiweb/store-multi-gudang": "^1.3",
-    "perigiweb/theme-backend-store-mg": "^1.1",
+    "perigiweb/theme-admin-store-mg": "^1.1",
     "perigiweb/theme-frontend-store-ta": "^1.1"
   },
   "scripts": {
